@@ -1,0 +1,163 @@
+*{
+    margin: 0; 
+    padding: 0;
+    border: none;
+}
+#body-login{
+    background-color: black;
+    background-image:url(../img/BG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+.login-container{
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 50px;
+    width: 350px;
+    z-index: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+.form-item input{
+    padding: 8px;
+    height: 24px;
+    background-color: #333;
+    color: white;
+    border-radius: 6px;
+}
+.help-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.register{
+    flex-direction: column;
+    margin-top: 25px;
+}
+.register h4{
+    font-size:18px;
+    line-height: 32px;
+}
+.help-line p{
+    font-size:11px;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
+
+
+
+
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgba(0,0,0,0.8);
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+header nav ul li, header nav ul li a{
+    padding: 12px;
+    margin: 10px;
+    color: white;
+}
+.menu-icon{
+    width: 24px;
+}
+.movie-descripcion{
+    margin: 20px;
+    width: 320px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.movie-category{
+    color: orange;
+}
+.movie-hate{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: -20px;
+}
+.movie-hate img{
+    width: 20px;
+
+}
+body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.movie-list{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 24px;
+}
+.movie-card{
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+.movie-list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+.movie-list ul li{
+    width: 100%;
+}
+.movie-spider-man{
+    background-image: url(../img/spider-man.png);
+}
+.movie-wintcher{
+    background-image: url(../img/wintcher.png);
+}
+.movie-shang-shi{
+    background-image: url(../img/shang-shi.png);
+}
+.movie-loki{
+    background-image: url(../img/loki.png);
+}
+
+
+
+
